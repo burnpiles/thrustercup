@@ -26,7 +26,7 @@
       ]
     },
     {
-      "source": "/(og.png|icon-(.*).png|apple-touch-icon.png|favicon-32.png)",
+      "source": "/:file(.*\\.png)",
       "headers": [
         {
           "key": "Cache-Control",
